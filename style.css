@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    background-color: rgb(95, 218, 148);
+    font-family:sans-serif;
+}
+.container{
+    width: 35rem;
+    margin: auto;
+
+input:focus {
+       
+outline: 2px solid rgb(33, 82, 197);
+}
+
+}
+ .input{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 35rem;
+    border-radius: 20px 20px 0px 0px;
+ }
+ .todo-container{
+    max-width: 35rem;
+    background-color: rgb(226, 226, 226);
+    min-height: 455px;
+    padding: 30px 10px;
+    border-radius:  0px 0px 20px 20px;
+ 
+ }
+ .todo-task-handle{
+    padding: 15px 0px;
+    display: flex;
+     background-color: rgb(255, 255, 255);
+     flex-direction: row;
+     border-radius: 50px;
+     align-items: center;
+     padding-right: 20px;
+     margin: 10px;
+     border: 2px solid transparent;
+     border-left: 2px solid rgb(113, 113, 186);
+    
+
+ }
+ .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+ .what-to-do-input{
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 20px;padding-right: 20px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    user-select: none;
+   
+ }
+ .add-input{
+    height: 44px;
+    width: 44px;
+    background-color: rgb(249, 145, 34);
+    font-size: 25px;
+    user-select: none;
+
+ }
+ button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+
+ }
+ .checkbox{
+    margin: 0 20px; height: 30px; min-width:30px; border: 2px solid rgb(194, 189, 189);padding: 6px 6px; user-select: none;
+ }
+ .delete-todo{
+    margin-left: auto;height: 30px; min-width: 30px;font-size: 20px;color: rgb(246, 92, 92);user-select: none;
+ }
+ .todo-contant{
+    text-align:left; padding-right: 20px;
+ }
+
+
+
+
+
+ /*want to add drag feature , date and time feature ,local storage..  to it */
